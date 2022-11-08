@@ -1,0 +1,22 @@
+// $setColor:blue;
+// @import 'variables.scss';
+@import '../New/New.scss';
+.homepage{
+    text-align: center;
+    color: rgb(25, 83, 150);
+   
+    .part2{
+        font-size: 35px;
+        color: rgb(253, 157, 46);
+        // color: $setColor;
+    }
+}
+.part2{
+    color: green;  //not apply
+}
+.heading{
+    @include heading;
+    // font-size: 50px;
+    // color: rgb(26, 24, 24);
+    // // color: $setColor;
+}

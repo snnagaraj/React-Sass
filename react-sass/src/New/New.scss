@@ -1,0 +1,14 @@
+// @import '../Home/variables.scss'
+
+// .head{
+//     text-align: center;
+//     color: $setColor;
+// }
+
+@mixin heading {
+    font-size: 50px;
+    color: red;
+}
+.head{
+    color: aqua;
+}
